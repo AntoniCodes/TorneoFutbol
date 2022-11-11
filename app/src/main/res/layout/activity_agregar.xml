@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior" >
+
+  <Spinner
+      android:id="@+id/spinEquipo1"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:entries="@array/spinnerEquipos" />
+
+  <EditText
+      android:id="@+id/txtGoles1"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:ems="10"
+      android:hint="Goles"
+      android:inputType="textPersonName" />
+
+  <Spinner
+      android:id="@+id/spinEquipo2"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:entries="@array/spinnerEquipos" />
+
+  <EditText
+      android:id="@+id/txtGoles2"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:ems="10"
+      android:hint="Goles"
+      android:inputType="textPersonName" />
+
+  <EditText
+      android:id="@+id/txtResumen"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:ems="10"
+      android:hint="Resumen"
+      android:inputType="textPersonName" />
+
+  <Button
+      android:id="@+id/btnAgregar"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Agregar Partido" />
+
+</LinearLayout>
